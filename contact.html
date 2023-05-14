@@ -26,7 +26,9 @@
       href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/d8ee746695.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact-style.css">
     <title>Contact - ABD's BLOGS</title>
 </head>
 <body>
@@ -46,5 +48,28 @@
   </header>
 
 <!----------------- NAVBAR ENDS  ------------------>
+<div class="container">
+  <h1>Contact Me!</h1>
+  <form action="">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" placeholder="example@mail.com">
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Type subject">
+
+    <label for="msg">Your Message</label>
+    <textarea id="msg" name="msg" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input class="submit-button" type="submit" value="Submit">
+
+  </form>
+</div>
 </body>
 </html>
