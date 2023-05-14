@@ -1,95 +1,187 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #444;
+* {
+  font-family: "Oxygen", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #444;
 }
-
 
 /* -----------------navbar --------------------*/
-
-header{
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 15%;
+h2{
+  font-size: 40px;
+  color: #00a9be;
+  margin: 30px 0;
+}
+p{
+  margin: 30px 0;
+}
+.bold{
+  font-weight: bold;
+}
+header {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15%;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-.nav-logo img{
-    width: 20%;
-    cursor: pointer;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
-  li {
-    display: inline-flex;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+.nav-logo img {
+  width: 100px;
+  cursor: pointer;
+}
+li {
+  display: inline-flex;
+}
 
-  
-  .active {
-    background-color: #04AA6D;
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #04aa6d;
+}
 /* -----------------header --------------------*/
 
-.hero-area{
- 
-    padding: 5%;
-    display: flex;
-    flex-wrap: wrap;
+.hero-area {
+  background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(180, 253, 255));
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
 }
-.hero-img img{
-    margin-right: 15%;
-    float: right;
-    max-width: 450px;
-    background-size: cover;
-    border-radius: 4vw 8vw 2vw 8vw;
+.hero-img img {
+  margin-right: 15%;
+  float: right;
+  width: 25%;
+  min-width: 450px;
+  background-size: cover;
+  border-radius: 4vw 8vw 2vw 8vw;
 }
-.left{
-    width: 50%;
-    float: left;
+.left {
+  width: 50%;
 }
-.right{
-    width: 50%;
+.right {
+
+  width: 50%;
+  margin: 60px 0px;
 }
 
 /* -----------------Buttons --------------------*/
 
 .button {
-    background-color: #00a9be;
-    color: white;
-    padding: 12px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  .button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #00a9be;
-    border-radius: 20px;
-  }
-  
-  .button1:hover {
-    background-color: #00a9be;
-    color: white;
-  }
+  background-color: #00a9be;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1{
+  background-color: white;
+  color: #333;
+  border: 2px solid #00a9be;
+  border-radius: 20px;
+}
 
+.button1:hover {
+  background-color: #00a9be;
+  color: white;
+}
 
-/* -----------------navbar --------------------*/
+/* -------------------------------------------------------------------------------------------------------------------------------------------------BLOG>HTML ----------------------------------------------------------------------------------------------------------------------*/
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 200px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+hr{
+  border: 2px double #00a9be;
+  width: 20%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* -----------------navbar --------------------*/
