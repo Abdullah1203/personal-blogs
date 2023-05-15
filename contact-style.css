@@ -53,4 +53,10 @@ input,textarea{
     input{
         border: 1px solid rgba(65, 65, 65, 0.507);
     }
+    .submit-button{
+        margin: auto;
+    }
+    textarea{
+        margin-bottom: 20px;
+    }
 }
