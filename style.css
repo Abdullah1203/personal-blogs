@@ -181,4 +181,8 @@ i span{
     text-align: center;
     flex-direction: column;
   }
+  
+}
+@media screen and (max-width: 340px) {
+    
 }
