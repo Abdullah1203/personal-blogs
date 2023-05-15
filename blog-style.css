@@ -66,8 +66,25 @@ img{
   padding: 20px 0;
 }
 .card{
+  overflow: auto;
   margin: 60px 120px;
   padding: 32px 62px;
   border: 3px solid grey;
   border-radius: 1%;
+}
+@media screen and (max-width: 860px) {
+  .row{
+    display: flexbox;
+    flex-direction: row;
+  }
+  .rightcolumn{
+    width: auto;
+    left: 0;
+  }
+  .leftcolumn{
+    width: 100%;
+  }
+  .card{
+    margin: auto;
+  }
 }
