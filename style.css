@@ -110,15 +110,19 @@ li a {
 
 
 /* -----------------navbar --------------------*/
-.mainimg {
-  background-image: url(images/blog-img-1.jpg);
+img{
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #aaa;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0;
 }
-
+.card{
+  display: flexbox;
+    margin: 20px 15%;
+    padding: 20px 114px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 1%;
+}
 /* Add a card effect for articles */
 .mid section {
    background-color: white;
@@ -170,6 +174,9 @@ i span{
 }
 .column h2{
   padding-bottom: 10px;
+}
+.featured-blog h2{
+  color: #333 ;
 }
 
 @media screen and (max-width: 540px) {
