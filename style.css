@@ -112,7 +112,7 @@ li a {
 
 
 /* -----------------navbar --------------------*/
-img{
+.card img{
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
