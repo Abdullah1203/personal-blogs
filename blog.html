@@ -1,71 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A basic html & css website for a Travel blog which contains a number of blogs and multiples pages."
+    />
+    <meta name="Author" content="Abdullah Ibne Ali" />
+    <meta
+      name="keywords"
+      content="basic html, travel bolg, personal blog, contact form, abdullah ibne ali website, "
+    />
+    <meta property="og:site_name" content="ABD's BLOGS" />
+    <meta
+      property="og:url"
+      content="https://Abdullah1203.github.io/personal-blogs"
+    />
+    <meta property="og:images" content="./images/main.jpg" />
+    <meta property="og:description" content="A personal travel blog site" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d8ee746695.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="blog-style.css" />
+    <title>BLOGS - ABD's BLOGS</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="A basic html & css website for a Travel blog which contains a number of blogs and multiples pages." />
-  <meta name="Author" content="Abdullah Ibne Ali" />
-  <meta name="keywords" content="basic html, travel bolg, personal blog, contact form, abdullah ibne ali website, " />
-  <meta property="og:site_name" content="ABD's BLOGS" />
-  <meta property="og:url" content="https://Abdullah1203.github.io/personal-blogs" />
-  <meta property="og:images" content="./images/main.jpg" />
-  <meta property="og:description" content="A personal travel blog site" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/d8ee746695.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="blog-style.css">
-  <title>BLOGS - ABD's BLOGS</title>
-</head>
+  <body>
+    <!----------------- NAVBAR STARTS  ------------------>
+    <header>
+      <div class="nav-logo">
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <!----------------- NAVBAR ENDS  ------------------>
 
-<body>
-  <!----------------- NAVBAR STARTS  ------------------>
-  <header>
-    <div class="nav-logo">
-      <a href="#home"><img src="images/logo.png" alt="" /></a>
-    </div>
-    <div class="nav-menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </header>
-  <!----------------- NAVBAR ENDS  ------------------>
-
-  <div class="row">
-    <div class="leftcolumn">
-      <h2>Recent blogs</h2>
-      <hr><br>
-      <div class="card">
-        <h2>A Remarkable Trip To Paris</h2>
-        <h5>Dec 7, 2022</h5>
-        <div class="fakeimg" style="height:250px;">
+    <div class="row">
+      <div class="leftcolumn">
+        <h2>Recent blogs</h2>
+        <hr />
+        <br />
+        <div class="card">
+          <h2>A Remarkable Trip To Paris</h2>
+          <h5>Dec 7, 2022</h5>
+          <div class="blogimg" style="height: 250px"></div>
+          <p>By Nimit</p>
+          <p>
+            Once one of the most difficult countries to visit, Saudi Arabia is
+            finally issuing visas for tourism purposes and independent travel.
+            Before, the only way to travel to Saudi was on a business visa, via
+            a strong local connection who could sponsor your visit, or by
+            getting a pilgrimage visa to visit Mecca and Medina (only for
+            Muslims). Therefore, the fact that all of a sudden, Western tourists
+            can visit Saudi Arabia on their own, with a backpack, both men and
+            women, is a very radical change....
+            <a href="single-page.html">read more.</a>
+          </p>
         </div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco.</p>
+        <div class="card">
+          <h2>Tips and how to travel to Saudi Arabia in 2022</h2>
+          <h5>september 7, 2022</h5>
+          <div class="blogimg" style="height: 250px"></div>
+          <p>By Nimit</p>
+          <p>
+            Once one of the most difficult countries to visit, Saudi Arabia is
+            finally issuing visas for tourism purposes and independent travel.
+            Before, the only way to travel to Saudi was on a business visa, via
+            a strong local connection who could sponsor your visit, or by
+            getting a pilgrimage visa to visit Mecca and Medina (only for
+            Muslims). Therefore, the fact that all of a sudden, Western tourists
+            can visit Saudi Arabia on their own, with a backpack, both men and
+            women, is a very radical change....
+            <a href="single-page.html">read more.</a>
+          </p>
+        </div>
+        <div class="card">
+          <h2>A Remarkable Trip To Paris</h2>
+          <h5>Dec 7, 2022</h5>
+          <div class="blogimg" style="height: 250px"></div>
+          <p>By Nimit</p>
+          <p>
+            Once one of the most difficult countries to visit, Saudi Arabia is
+            finally issuing visas for tourism purposes and independent travel.
+            Before, the only way to travel to Saudi was on a business visa, via
+            a strong local connection who could sponsor your visit, or by
+            getting a pilgrimage visa to visit Mecca and Medina (only for
+            Muslims). Therefore, the fact that all of a sudden, Western tourists
+            can visit Saudi Arabia on their own, with a backpack, both men and
+            women, is a very radical change....
+            <a href="single-page.html">read more.</a>
+          </p>
+        </div>
+        <div class="card">
+          <h2>A Remarkable Trip To Paris</h2>
+          <h5>Dec 7, 2022</h5>
+          <div class="blogimg" style="height: 250px"></div>
+          <p>By Nimit</p>
+          <p>
+            Once one of the most difficult countries to visit, Saudi Arabia is
+            finally issuing visas for tourism purposes and independent travel.
+            Before, the only way to travel to Saudi was on a business visa, via
+            a strong local connection who could sponsor your visit, or by
+            getting a pilgrimage visa to visit Mecca and Medina (only for
+            Muslims). Therefore, the fact that all of a sudden, Western tourists
+            can visit Saudi Arabia on their own, with a backpack, both men and
+            women, is a very radical change....
+            <a href="single-page.html">read more.</a>
+          </p>
+        </div>
+        <div class="card">
+          <h2>A Remarkable Trip To Paris</h2>
+          <h5>Dec 7, 2022</h5>
+          <div class="blogimg" style="height: 250px"></div>
+          <p>By Nimit</p>
+          <p>
+            Once one of the most difficult countries to visit, Saudi Arabia is
+            finally issuing visas for tourism purposes and independent travel.
+            Before, the only way to travel to Saudi was on a business visa, via
+            a strong local connection who could sponsor your visit, or by
+            getting a pilgrimage visa to visit Mecca and Medina (only for
+            Muslims). Therefore, the fact that all of a sudden, Western tourists
+            can visit Saudi Arabia on their own, with a backpack, both men and
+            women, is a very radical change....
+            <a href="single-page.html">read more.</a>
+          </p>
+        </div>
       </div>
-      <div class="card">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco.</p>
-      </div>
-    </div>
-    <div class="rightcolumn">
-        <div class="right" style="background-color:#bbb;">
+      <div class="rightcolumn">
+        <div class="right">
           <h2>Menu</h2>
-          <input type="text" id="mySearch" placeholder="Search.." title="Type in a category">
+          <div class="searchBar">
+            <input
+              type="text"
+              id="mySearch"
+              placeholder="Search.."
+              title="Type in a category"
+            />
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
 
           <h3>Categories</h3>
           <ul id="myMenu">
@@ -80,9 +168,49 @@
             <li><a href="#">adventure</a></li>
           </ul>
         </div>
+      </div>
     </div>
-  </div>
     <!----------------- BLOG PAGE ENDS  ------------------>
-</body>
 
+    <footer>
+      <div class="footer">
+        <div class="column">
+          <p>Follow me on:</p>
+          <i class="fa fa-facebook-square" aria-hidden="true"
+            ><span> Facebook</span></i
+          >
+          <i class="fa fa-twitter-square" aria-hidden="true"
+            ><span> Twitter</span></i
+          >
+          <i class="fa fa-pinterest-square" aria-hidden="true"
+            ><span> Pinterest</span></i
+          >
+        </div>
+        <div class="column">
+          <h2>About Me</h2>
+          <ul>
+            <li>Media</li>
+            <li>Contact</li>
+            <li>Work</li>
+            <li>Privacy policy</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h2>Destinations</h2>
+          <ul>
+            <li>Bangladesh</li>
+            <li>Canada</li>
+            <li>France</li>
+            <li>USA</li>
+            <li>Middle East</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <div class="bottom">
+        <p>copyright © Abdullah Ibne Ali</p>
+      </div>
+    </footer>
+  </body>
 </html>

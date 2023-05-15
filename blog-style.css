@@ -3,6 +3,9 @@
   padding: 20px;
   padding-top: 0;
 }
+h2,p{
+  color: #333;
+}
 h3{
   margin: 20px 10px;
 }
@@ -10,11 +13,57 @@ h3{
   width: 70%;
   left: 0;
 }
-
+.searchBar{
+  display: flex;
+  padding-left: 5px;
+}
+.searchBar i{
+  cursor: pointer;
+  padding: 11px;
+  background-color: #00a9be;
+  color: #fff;
+  margin: 0;
+  border: 2px solid #00a9be;
+  transition: .4s;
+}
+.searchBar i:hover{
+  color: #333;
+  background-color: #09b7ce;
+}
 .rightcolumn{
-  background-color: #333;
+  border-left: 1px solid grey ;
   margin-inline-end: auto;
   width: 29%;
   right: 0;
   overflow: auto;
+  margin-left: 60px;
+}
+.right h2,h3{
+  margin: 10px;
+  color: #00a9be;
+}
+#mySearch {
+  width: 80%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+#myMenu {
+  background-color: #fff;
+}
+#myMenu li a{
+  color: #333;
+  font-weight: 700;
+}
+.column h2{
+  color: #fff;
+
+}
+.blogimg{
+  background-image: url(images/blog-img-all.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
 }
