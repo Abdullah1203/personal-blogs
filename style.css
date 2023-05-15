@@ -73,9 +73,11 @@ li a {
   height: 400px;
 }
 .hero-section h2{
+  font-size: 60px;
   color: white;
 }
 .hero-section p{
+  font-size: 20px;
   color: white;
 }
 .featured-blog{
