@@ -1,7 +1,7 @@
 .card{
     display: flexbox;
-    margin: 40px;
-    padding: 14px;
+    margin: 20px 15%;
+    padding: 20px 114px;
     border: 1px solid rgba(0, 0, 0, 0.288);
     border-radius: 1%;
 }
@@ -10,10 +10,11 @@ h1{
     color:#00a9be ;
 }
 h3{
-    padding: 10px 0;
+    padding: 24px 0;
     font-size: 30px;
 }
 img{
+    align-self: center;
     width: 90%;
 }
 .bold{
