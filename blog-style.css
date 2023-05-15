@@ -59,7 +59,7 @@ h3{
   color: #fff;
 
 }
-img{
+.card img{
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -72,7 +72,7 @@ img{
   border: 3px solid grey;
   border-radius: 1%;
 }
-@media screen and (max-width: 860px) {
+@media only screen and (max-width: 860px) {
   .row{
     display: flexbox;
     flex-direction: row;

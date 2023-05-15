@@ -25,6 +25,7 @@ label{
     margin-bottom: 10px;
 }
 input,textarea{
+    border: 1px solid rgba(65, 65, 65, 0.507);
     max-width: inherit;
     padding: 10px 10px;
 }
@@ -43,4 +44,13 @@ input,textarea{
  
 .submit-button:hover{
    background-color: #117a88;
+}
+
+@media screen and (max-width: 860px) {
+    .container{
+        margin: auto;
+    }
+    input{
+        border: 1px solid rgba(65, 65, 65, 0.507);
+    }
 }

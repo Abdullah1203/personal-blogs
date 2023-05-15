@@ -180,14 +180,25 @@ i span{
 .featured-blog h2{
   color: #333 ;
 }
-
+@media screen and (max-width: 660px) {
+  .hero-area{
+    height: min-content;
+    overflow: auto;
+  }
+  .card{
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    word-wrap: break-word;
+  }
+}
 @media screen and (max-width: 540px) {
   .column{
   width: 100%;
 
   }
   .footer{
-    text-align: center;
+    text-align: left;
     flex-direction: column;
   }
   
@@ -197,4 +208,14 @@ i span{
     display: flex;
     flex-direction: column;
   }
-}
+  .hero-section {
+    padding: 0%;
+    height: auto;
+  }
+  .nav-logo{
+    margin: auto;
+  }
+  .nav-menu{
+    margin: auto;
+  }
+  }
